@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SinglyLinkedList()
+comment1.params=
+comment1.target=void\ purge()
+comment2.params=
+comment2.target=SinglyLinkedList.Element\ getTail()
+comment3.params=
+comment3.target=SinglyLinkedList.Element\ getHead()
+comment4.params=newElement
+comment4.target=boolean\ append(SnakeElement)
+comment5.params=newElement
+comment5.target=boolean\ prepend(SnakeElement)
+comment6.params=newElement
+comment6.target=boolean\ remove(SnakeElement)
+comment7.params=row\ col
+comment7.target=boolean\ checkRowCol(int,\ int)
+comment8.params=row\ col
+comment8.target=boolean\ checkAppleCollision(int,\ int)
+numComments=9

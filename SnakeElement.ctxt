@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=SnakeElement(int,\ int)
+comment1.params=
+comment1.target=int\ getRow()
+comment2.params=
+comment2.target=int\ getCol()
+comment3.params=
+comment3.target=void\ decCol()
+comment4.params=
+comment4.target=void\ decRow()
+comment5.params=col
+comment5.target=void\ incCol(int)
+comment6.params=row
+comment6.target=void\ incRow(int)
+numComments=7
