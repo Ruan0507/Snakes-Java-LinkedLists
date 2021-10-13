@@ -27,20 +27,15 @@ public class SinglyLinkedList
     public boolean append(SnakeElement newElement) //insert at tail
     {  
         Element temp = new Element(newElement);
-        if(temp == null) // out of memory
-            return false;
+        if (head==null)
+        {
+            head = temp;
+            tail = temp;
+        }
         else
-        {  
-            if (head==null)
-            {
-                head = temp;
-                tail = temp;
-            }
-            else
-            {
-                tail.next = temp;
-                tail = temp;
-            }
+        {
+            tail.next = temp;
+            tail = temp;
         }
         return true;   
     }
@@ -48,20 +43,15 @@ public class SinglyLinkedList
     public boolean prepend(SnakeElement newElement)
     {
         Element temp = new Element(newElement);
-        if(temp == null) // out of memory
-            return false;
+        if (head==null)
+        {
+            head = temp;
+            tail = temp;
+        }
         else
-        {  
-            if (head==null)
-            {
-                head = temp;
-                tail = temp;
-            }
-            else
-            {
-                temp.next = head;
-                head = temp;
-            }
+        {
+            temp.next = head;
+            head = temp;
         }
         return true; 
     }
